@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "catkin_make",
+			"args": [
+				"--directory",
+				"/home/ncut/learn_tf",
+				"-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+				// 开启后生成文件compile_commands.json，且需要在c_cpp_pxxx.json中开启
+				// "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+				"-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+			],
+			"problemMatcher": [
+				"$catkin-gcc"
+			],
+			"group": {"kind":"build","isDefault":true}, // 默认使用编译 
+			"label": "catkin_make: build"
+		}
+	]
+}

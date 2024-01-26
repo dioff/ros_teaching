@@ -1,0 +1,56 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ncut/robot_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/amcl/include/**",
+        "/home/ncut/robot_ws/src/ros_astra_camera/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/base_local_planner/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/carrot_planner/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_planners/chomp/chomp_motion_planner/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/clear_costmap_recovery/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/costmap_2d/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/dwa_local_planner/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/global_planner/include/**",
+        "/home/ncut/robot_ws/src/gluon_control/include/**",
+        "/home/ncut/robot_ws/src/laser_filters/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/map_server/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/move_base/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/move_slow_and_clear/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_planners/chomp/chomp_interface/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_ros/benchmarks/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_plugins/moveit_ros_control_interface/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_ros/move_group/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_ros/occupancy_map_monitor/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_ros/robot_interaction/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_ros/moveit_servo/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_setup_assistant/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_plugins/moveit_simple_controller_manager/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/nav_core/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/navfn/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_planners/pilz_industrial_motion_planner/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/ncut/robot_ws/src/robot_localization/include/**",
+        "/home/ncut/robot_ws/src/robot_pose_ekf/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/rotate_recovery/include/**",
+        "/home/ncut/robot_ws/src/moveit/moveit-melodic-devel/moveit_planners/sbpl/core/sbpl_interface/include/**",
+        "/home/ncut/robot_ws/src/teb_local_planner-melodic/include/**",
+        "/home/ncut/learn_tf/src/test/include/**",
+        "/home/ncut/robot_ws/src/navigation-melodic/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+    }
+  ],
+  "version": 4
+}
