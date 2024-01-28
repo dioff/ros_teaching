@@ -8,5 +8,6 @@ int main(int argc, char *argv[])
     ros::NodeHandle nh;
     // 在控制台输出hello world
     ROS_INFO("hello world");
+    ROS_INFO("NNNN");
     return 0;
 }
